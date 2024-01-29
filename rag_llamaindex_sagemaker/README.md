@@ -4,10 +4,7 @@
 This code supports a blog post [Building Knowledge-Powered Question Answering Applications using Amazon SageMaker and LlamaIndex](link) which demonstrates building question and answering applications with the ability to query user-defined data sources. The application is supported by endpoints deployed in Amazon SageMaker Jumpstart. We will use a text embedding model from Hugging Face and the llama chat LLM from Meta. The data sources in are all in .pdf form, and can be ingested and vectorised using LlamaIndex. This makes querying the knowledge base more efficient and accurate. 
 
 ## Prerequisites
-For this tutorial you'll need an AWS account with Amazon SageMaker Domains and appropriate IAM permissions. Instructions on launching the required content can be found [here](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html).If you don’t already have a SageMaker domain, refer to Onboard to Amazon SageMaker Domain to create one. In this post we are using the [‘AmazonSageMakerFullAccess’](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonSageMakerFullAccess.html) and we assume that you use administrator user credentials for the exercises and procedures in this guide. If you choose to create and use another user, you must grant that user **minimum permissions**. You can also explore how you can use [Amazon SageMaker Role Manager](https://docs.aws.amazon.com/sagemaker/latest/dg/role-manager.html) to build and manage persona-based IAM roles for common machine learning needs directly through the Amazon SageMaker console. 
-
-
-
+For this tutorial you'll need an AWS account with Amazon SageMaker Domains and appropriate IAM permissions. Instructions on launching the required content can be found [here](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-set-up.html). If you don’t already have a SageMaker domain, refer to *Onboard to Amazon SageMaker Domain* to create one. In this post we are using the [‘AmazonSageMakerFullAccess’](https://docs.aws.amazon.com/aws-managed-policy/latest/reference/AmazonSageMakerFullAccess.html) role. It is not recommended that you use this credential in a production environment. Instead create and use a role with least-privilege permissions. You can use [Amazon SageMaker Role Manager](https://docs.aws.amazon.com/sagemaker/latest/dg/role-manager.html) to build and manage persona-based IAM roles for machine learning workflows directly through the Amazon SageMaker console. 
 
 We use the `us-east-1` region to build our application.
 
@@ -33,7 +30,7 @@ Use the LangChain framework to build an agent that can access tools e.g. to quer
 Delete the real-time endpoints and avoid excess costs when the endpoints are not in use.
 
 ## Contribute
-If you would like to contribute to the project, see [CONTRIBUTING](CONTRIBUTING.md) for more information.
+If you would like to contribute to the project, see [CONTRIBUTING](https://github.com/pnipinto/llms-amazon-bedrock-sagemaker/blob/main/CONTRIBUTING.md#security-issue-notifications) for more information.
 
 ## License
 The license for this repository depends on the section.  Data set for the course is being provided to you by permission of Amazon and is subject to the terms of the [Amazon License and Access](https://www.amazon.com/gp/help/customer/display.html?nodeId=201909000). You are expressly prohibited from copying, modifying, selling, exporting or using this data set in any way other than for the purpose of completing this course. The lecture slides are released under the CC-BY-SA-4.0 License.  The code examples are released under the MIT-0 License. See each section's LICENSE file for details.
