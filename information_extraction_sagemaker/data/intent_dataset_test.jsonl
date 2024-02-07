@@ -1,0 +1,783 @@
+{"text": "Guide me through updating my payment method for the insurance plan.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm contemplating whether to add hospital coverage to my policy or to look for a new policy altogether. What do you suggest?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I don't visit hospitals often. Should I remove that from my plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "My phone was stolen yesterday, and I have a new number now. Who do I need to talk to in order to get this updated on my profile?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Every time I try to log in, the page just refreshes and doesn't go through.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "The tone used by your agent was unacceptable, and I demand an apology for the rudeness.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "How can I include coverage for orthodontic braces for my child in my current health plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm not getting anywhere with this, can a manager please handle my complaint?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Could you help me cancel the hospital part of my coverage since I'm covered elsewhere?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Is it possible to get acupuncture covered under my policy?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm unsure about the tax consequences of altering my life insurance beneficiaries. Can you provide clarity?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I just realized my son's name is misspelled on our policy. Can we correct this soon?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Could there be an issue with my account? I can't seem to log in with my usual credentials.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Please explain how to cancel the hospital coverage from my insurance without changing anything else.", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Please advise on the consequences of removing the emergency services from my health insurance coverage.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "How do I remove just the hospital coverage from my policy without affecting the rest?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Considering I've never used the ambulance service, is it necessary to have it in my policy?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'd like to switch from paying with my bank account to a credit card, what do I need to do?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I've had health issues in the past, will that affect my ability to get life insurance with you?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Can you guide me through the process of updating my bank account details for the automatic premium deductions?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm unsure how to proceed with updating my life insurance beneficiaries after my recent divorce.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "If I am unable to find a more suitable insurance plan with better benefits, I might have to consider switching to a different insurance provider.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm moving from a company plan to an individual one. What are the key differences I should be aware of?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure who to turn to, but I need to escalate this matter to a higher level of support.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "My circumstances have changed and I'm contemplating whether to cancel my life insurance.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Just received a new credit card and need to sort out how to update my insurance billing info.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Do loyal customers get any policy upgrades for free?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm contemplating whether the extra benefits like physiotherapy are really necessary for me, what's your take?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I need to change some personal information but can't find where to do it on your portal.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Please cancel my life insurance policy as I've found a better option elsewhere.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I feel like I'm paying too much for my insurance, any chance of a complimentary upgrade?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I want to make sure my son gets my insurance money, can you update the info?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm not sure who to talk to, but I need to escalate this to someone who can make a difference. Who can I speak with?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Can I get some information on including alternative therapies in my existing policy coverage?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "My driver's license has my updated address, but I'm not sure if my insurance profile does. How can I check and update if necessary?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Hospital coverage seems redundant for me now. How do I go about removing it?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not certain if I still need my life insurance policy. Can you explain the pros and cons of cancellation?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Could you walk me through the process of updating my life insurance to include my newborn as a beneficiary?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Can you provide details on starting a life insurance policy?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I've been putting off getting life insurance, but I think it's time. How do I start the conversation with an agent?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm uncertain about the process for cancelling my health insurance. Can you provide some assistance?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Please initiate the process to change my life insurance beneficiary to my children from my first marriage.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm not sure who to talk to, but can you escalate my issue?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've been going in circles, can someone higher up assist me?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm currently evaluating my insurance needs and wondering how adding hospital coverage would impact my deductible.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm not sure if I need the physiotherapy add-on. Could we explore options to adjust my policy?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "This has been dragging on for far too long, and I'm not seeing any progress. Can we get a manager involved to move things along?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Can you connect me with a supervisor? I'm not satisfied with the current resolution.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I need to add my newborn as a beneficiary to my life insurance policy. What documents are needed?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I need to change the payment method for my policy, can I do that online or do I need to call?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "This can't be right; there must be someone else I can talk to about my policy concerns, right?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm shopping around for a better health insurance policy. What makes your coverage stand out?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure if my policy covers childbirth, can you help me figure out how to add this coverage?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Can you guide me on how to change my policy's beneficiary after getting married?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Please remove the chiropractic services from my coverage, I don't use them at all.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I want to cancel my life insurance, do I call you or is there an online form?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Struggling to add dental coverage online. Can you assist?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "The login screen keeps refreshing but doesn't log me in, what's happening?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I've been hearing good things about your health insurance. What makes your policies stand out for someone looking to switch?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure why there's a charge for an annual checkup that's supposed to be covered.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I feel like the customer support team is not knowledgeable enough to help me.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "How do I go about changing my coverage details on your website?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm evaluating my insurance needs and considering cancelling my life policy, any advice?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Where can I find information about my premium payments on your website?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I've recently reassessed my financial situation and I've concluded that my life insurance policy is no longer necessary. How should I proceed with the cancellation?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Is there an option to upgrade my plan with better benefits without increasing the cost?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I feel like my loyalty should be rewarded. Can you offer me a policy upgrade at no additional cost?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "What steps should I take to get rid of the physiotherapy coverage in my plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Could you possibly put me through to a manager or someone who can actually resolve this?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Considering my age and health, I'm thinking of removing hospital coverage from my insurance policy. What's the best way to do this?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "My friend recommended your health insurance, what's the process for signing up for a new policy?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Would removing vision coverage affect my hospital cover?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Do I need to keep hospital cover if I'm already covered by my employer's plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Does your company provide any complimentary upgrades for policies as part of a customer retention program?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "If there's no improved plan, might look elsewhere.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "How to update the billing info after getting a new bank account?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm looking to purchase life insurance but I'm on a tight budget. Can you suggest an affordable plan?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Please help me understand the process and consequences of removing hospital coverage from my plan.", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Could you provide details on how to include dental and vision coverage in my existing health plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm not sure how to go about it, but I need to change the bank account you charge for my health insurance. Could you point me in the right direction?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "If there's no better plan available, I might switch insurers.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Considering life insurance, what are the age limits?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm looking into life insurance, but I'm confused about the different types.", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "My family's health needs are changing and we might need a new policy. What are our options?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I need help finding the online tool for estimating healthcare costs on your site.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Can you tell me if my current insurance plan allows me to add hospitalization benefits?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Can you take off the physiotherapy services from my plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm unhappy with the current policy and considering other insurance companies, any advice?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I've been charged for a service that I'm certain was covered during my last policy review.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Can you help me understand how to cancel my policy since I'm now eligible for Medicare?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been trying to figure out how to add critical illness cover to my insurance, but your website is confusing.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I need to remove my ex-partner from my life insurance policy, who do I need to speak to?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm unsure if my current life situation still warrants having life insurance. Can I cancel it?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm considering discontinuing my health insurance policy with you. Can you tell me how this affects my coverage until the end of the year?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'd like to know the consequences of cancelling my life insurance policy.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm unsure if you can assist, but I need to escalate this to someone who can make a decision and resolve my ongoing issue promptly.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Can you walk me through the process of applying for life insurance with your company?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "My account is locked, probably entered my password wrong too many times. Need a reset.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "How do I add my newborn to my policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "How do I go about removing the physio coverage from my current plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Could you tell me if removing the acupuncture benefit will reduce my monthly payments?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm interested in adding hospital coverage, but I'm also considering other health plans.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm interested in adding orthodontic coverage to my dental plan. What's the procedure?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Could you cancel my life insurance, or is there paperwork involved?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I need to cut down on insurance costs. How can I remove just the hospital coverage from my policy?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can you provide a comparison of adding hospital coverage versus upgrading to a comprehensive plan?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I've just graduated and need to find my own health insurance. What are the steps to get started?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I want to get life insurance but I'm not sure how it fits into my overall financial plan. Can you help?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Can you help me with the process to update the bank account I use for automatic withdrawals for my policy payments?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I've got a new debit card and need to update my payment details, but I'm not sure what the process is.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm self-employed and interested in life insurance, what plans suit my situation best?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure if this is something you can handle, but can you put me through to a supervisor?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've legally changed my surname and need to know how to reflect this in my insurance policy.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "My financial advisor suggested revising my life insurance beneficiaries. Could you provide some assistance?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm a young adult looking for my first health insurance policy. What's the process?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I've found a better offer and would like to cancel my current life insurance policy with you.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Could you help me understand how to add physiotherapy to my coverage?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm considering switching to a new insurer unless there are some perks for staying. Maybe something like a free upgrade?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Could you tell me about the life insurance plans available for someone in their 50s?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Considering my health, is dropping hospital coverage from my policy a good idea?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I've decided to cancel my life insurance policy. What are the next steps?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "My partner and I are not married but want to share a health plan, is that possible?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm confused about my bill, it's higher than usual and I need some clarification.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Could you explain how I can cancel my life insurance without incurring losses?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Please process the cancellation of my life insurance policy as I've found a more suitable alternative.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I might need to cancel my policy, but I'm worried about the cancellation fees.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I was wondering if it's possible to have a director look at my case? It seems quite unique and may need special attention.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "My employer doesn't offer health insurance, so what are my options for starting a new policy?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure if you're the person I should be speaking with, but I need to escalate my issue.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "My credit card expired, and I need to provide a new one for my payments.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Considering adding hospital coverage due to my health condition, what's the best approach?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I need to update my address on my insurance policy, but I'm not sure how to do it.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Considering my age and health, I'm thinking of removing hospital coverage from my insurance plan. What's your advice?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure if this is the right place, but I'm unhappy with my claim's outcome.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "My daughter just turned 18 and I'd like to make her a beneficiary of my life insurance. How do I go about this?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I've been waiting for a refund for over a month now. This is not acceptable.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've recently become a father and want to ensure my child is covered. How do I add him to my policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I've been reviewing my finances and I think I might need to cancel my health insurance policy with you.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm a bit confused about how to change my payment details on your website, could you walk me through it?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "What's the process for updating my payment details after getting a new debit card?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm not sure I need the hospital cover anymore. How can I take it off my policy?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure if I need life insurance at my age, but I'm interested in learning about the benefits.", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "What are the steps to remove my former partner from my health insurance after our breakup?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure who to talk to, but my issue isn't resolved. Who's in charge?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "My driver's license has my new address but my insurance doesn't. How do I sync them up?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I need a health plan that covers overseas health services. Do you have any?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure, but I think there's been an error in billing, and my attempts to resolve it have been ignored.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm debating whether to add hospital coverage or switch insurers, can you provide clarity?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Considering I haven't used it, would it be possible to drop the chiropractic coverage?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Please help me understand the consequences of removing hospital coverage from my health insurance plan.", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm looking to cut costs on my insurance, and I'm thinking hospital coverage might be unnecessary.", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "After my son's adoption was finalized, I realized I need to add him to my health insurance. Where do I start?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Do you offer any complimentary upgrades for policies during the renewal phase?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I've noticed other insurers offer perks for staying with them. Do you provide similar benefits, like a free policy upgrade?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Can you provide details on your family health plans?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm looking at different financial strategies and may need to cancel my life insurance. Any thoughts?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm a bit disappointed with my current coverage, are there any free upgrades available?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm not sure if you're the right person to help, but can we escalate this to someone who is?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "After my divorce, what steps should I take to revise my health plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure if my current plan includes chiropractic services. Can you help me find out and possibly add it?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I feel like my current plan doesn't cover enough. Are there any options for me to get a better plan without paying more?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "There's an extra charge on my account labeled 'service fee'. What service is this referring to?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Considering I haven't visited a dentist this year, should I keep dental in my health insurance?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm being charged for a premium medication tier, but my doctor prescribed the generic version. Why the discrepancy?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm unsure about the implications of cancelling my health insurance policy. Could you explain what would happen if I decide to go through with it?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "My passport has been renewed with a new number, how do I update this on my health insurance?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "How much would I save if I no longer included vision in my insurance plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm not sure if I need physiotherapy in my coverage, can you advise me?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm a student about to graduate and I'm interested in your health insurance plans. What's the eligibility criteria?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I've moved internationally and need to update my contact details, what's the procedure?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "My new passport has a different name, how do I synchronize this with my insurance account?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I've been calling about this issue for a while, and I think it's time to speak with someone at a managerial level.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm not using the chiropractic services, how can I take them off my policy?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I've forgotten my password and need to reset it to access my insurance details.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I've switched banks and need to update my direct debit details for my policy. Who do I contact?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "My claim's been denied again, and I'm considering other insurers. Can a manager call me?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Is removing hospital cover from my policy going to affect my premiums?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can you help me with the steps to remove my ex-husband from my health insurance?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "How do I go about updating my child as the new beneficiary on my life policy?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "How can I include physiotherapy in my current health plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "If I were to cancel my health insurance, how would it affect my current medical treatments?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Can my loyalty to your insurance be rewarded with a free upgrade of my plan?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Is adding maternity coverage to my policy a lengthy process?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm not receiving the email to reset my password, could there be an issue with my account?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "My current policy doesn't cover dental, do you have plans that do?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Do I need to update my policy after my child's 18th birthday?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm new to the area and need to find a local health insurance provider. Can you help me get started?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm debating whether to keep hospital coverage. What's your advice?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Is it possible to add coverage for health supplements to my plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Can you walk me through the process of cancelling my health insurance?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Can you guide me through the process of adding my newly adopted child to my coverage?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Please guide me on adding surgical benefits to my existing insurance plan.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Where can I add extra coverage for vision care online?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm trying to find the deductible information but keep ending up on the homepage, what should I do next?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm considering a hip replacement and would like to know how to add hospital coverage.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I've noticed unauthorized charges on my bill, and I need an explanation immediately.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Please exclude the alternative therapies from my current health insurance plan.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I need to lower my bill; can hospital coverage be removed?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can I get an enhanced plan at the same rate as my current one?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Please assist me in changing the payment card linked to my health insurance account.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm pondering over the idea of switching my payment method for my insurance policy. Is there someone who can provide me with more information?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm having trouble adding a dependent to my insurance on your site.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm considering adding hospital coverage, but I'm also exploring other insurance options at the moment.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Please update my address on my insurance profile, I've moved to a new city.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "What are the consequences of dropping hospital coverage from my plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm at my wit's end here, can you connect me with a higher-up to discuss my ongoing problem?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've recently become a father and would like to know how to add my child to my insurance policy.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure if I should cancel my life insurance or adjust it. What are my options?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "The billing statement I received has a charge for lab work I don't recall having done.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Please help me update the payment method for my policy.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Can you walk me through the process of terminating my health insurance with your company?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm evaluating whether I still need life insurance at this point in my life. Could you help me decide?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been recommended your services for health insurance, what can you offer a newcomer?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Please cancel my life insurance policy, as I've decided it's no longer necessary.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been trying to log in for the past hour. Is the system down today?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm not sure if I need to add hospital coverage or just update my current plan.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm looking to add coverage for reflexology, is that something you can help me with?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm not sure whether I should get term or whole life insurance. Can you explain the differences and help me decide?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Please explain how to update my policy with my son's new job details.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "The login page isn't loading properly on my tablet. Is this a known issue with the site?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I want to expand my coverage to include hospital services, what's the procedure?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "It's not clear where to find the section for updating my health questionnaire on your site.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "What are the consequences of dropping hospital coverage from my current health plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm dissatisfied with the service, can I talk to a manager?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've moved to a new state; does my insurance require an update with this new information?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm interested in getting life insurance but also want to understand the tax implications. Can you provide information?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm considering other options if I can't get a manager to address this.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I need to update my email address in your records, how can I do this?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'd like to change the way I pay for my insurance, can you help?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm puzzled by the sudden increase in my insurance premium. Could you shed some light on this?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm scheduled for a surgery next month and need to know how to ensure it's covered under my current health plan.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Please guide me on changing to a yearly payment plan with my new bank account.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Could you assist me in updating the beneficiary details for my life insurance policy? I need to add my spouse as the primary beneficiary.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I need to update my insurance information, but I'm not sure what proof you need for a name change.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'd like to change how I pay; can I use a different account?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Can you cancel my life insurance policy or do I need to fill out a form?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "What are the tax implications of taking out a life insurance policy?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "My daughter is now legally adopted, how to include her in the health coverage?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "If my contact information changes, what's the best way to ensure my policy reflects this?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "My recent experiences have been frustrating, and I need to discuss this with someone with more authority.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "My family structure has changed, and I need to update my life insurance beneficiaries accordingly.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I am extremely unhappy with the customer service I received last week when I called about my claim. Who can I speak to for a resolution?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm unsure, but I might need to cancel my health insurance, what's involved?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Could you tell me more about how to cancel my policy?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Due to a recent inheritance, I'm considering whether I need my life insurance policy anymore.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I've got a new credit card and need to update my payment info, what's the procedure?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm not sure if my current policy covers hospital stays, can you provide some information?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I need to cancel my life insurance policy as soon as possible. Please provide the necessary forms.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been thinking, do the extra services like physiotherapy really benefit my current situation?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm not sure if my plan includes hospitalization, can you help me with that?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Due to recent changes in my life, I'm thinking of cancelling my policy, any advice?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'd like to cancel the hospital coverage from my policy. Can you initiate that for me?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure if you're the right person to help, but I need to escalate this to someone who can provide a solution.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm not sure if my plan covers alternative therapies, can you help me figure out how to add them?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Do I need to inform you about my recent marriage to update my insurance?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "How does one go about applying for life insurance at your firm?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Considering the recent changes in my life, should I review my insurance details with you?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I've been recommended to check out your health plans, how can I get a quote for a new policy?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Please advise on the steps to take to cancel my life insurance coverage.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm turning 26 and getting off my parents' insurance, what's my first step with you?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I've been a loyal customer for years without any claims. I'm curious if you offer any policy upgrades for customers like me?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm worried about the security of my payment information. Before I update my details, can you tell me about your data protection measures?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm not getting the help I need. Can you escalate my issue?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm not sure why my coverage was reduced without my consent.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm having trouble locating the section for mental health services on your website.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm dissatisfied with my plan and thinking about better options.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I want to cancel my health insurance due to high premiums. What do I need to know?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been considering acupuncture lately, would it be possible to get it covered by my insurance?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm not sure if it's intentional, but there seems to be a pattern of errors on my account statements. Can we resolve this?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm not sure who to turn to, but my policy coverage isn't what I was sold.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm interested in your life insurance plans, how do I sign up?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "How do I go about changing my name on my policy after getting married?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "After a family event, I'm thinking of updating my policy's beneficiary list.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "My son's now employed and has his own insurance, should I still cover him on mine?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Could you help me understand if I should keep or remove hospital coverage?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure if you have my new phone number. Can I update it online or do I need to call?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "How do I inform you about my new mailing address for correspondence related to my health insurance policy?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Is there a way to recover my account without my password?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'd like to discuss options for altering my life insurance beneficiaries, who can I speak with?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "How do I go about changing the phone number you have for me?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I've tried resetting my password multiple times but never receive the email to complete the process. Can you assist me?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'd like to change how I pay for insurance, can you guide me?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Having trouble with my account login, not sure if it's the password or username that's incorrect.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Considering the benefits, how do I go about adding coverage for regular health check-ups to my policy?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Can you explain the different life insurance policies you offer?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "After getting married, I'm wondering if it's necessary to combine our health insurance policies.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm trying to understand why my preventive care visit wasn't fully covered by my insurance.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "How does one go about starting a life insurance policy?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I've just become a father and want to add my son to my policy, could you walk me through the process?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure who to turn to, but I need to speak with someone in charge about this matter.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Due to a change in my circumstances, I need to cancel my life insurance policy with your company.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Please advise on the process to update my health insurance after legally changing my name.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "What are the steps to eliminate the physiotherapy benefit from my current health plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "What are the steps to get started with a new health insurance policy?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm looking to add coverage for speech therapy, can you help?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I've just started a new job and need to sort out health insurance. What's the quickest way to get coverage with you?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'd like to cancel the hospital coverage from my policy due to a change in my financial situation. How do I do this?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "My family's policy doesn't include dental, can we add it or should we consider a new plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Can you stop my health insurance coverage at the end of this month?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Please initiate the cancellation of my health insurance policy as I've enrolled in a government program.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm not sure if I should call or use the online portal to update my insurance payment details. What do you recommend?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm questioning the charge for an x-ray on my bill since I haven't had one recently.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm looking for life insurance that offers both death benefit and a savings component. What can you offer?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Please advise on the consequences of canceling my health insurance policy before the renewal date.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm expecting a baby and need to make sure my hospital stay will be covered, what should I do?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I've been recommended your health insurance plans. Can you provide a detailed breakdown of what's included for someone starting fresh?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Hospital coverage seems redundant for me now. How do I get it removed from my policy?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Could you assist me with changing the beneficiary on my life insurance to my eldest child?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm unsure about keeping hospital coverage. Can we discuss this further?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm lost, how do I navigate to the billing section on your online portal?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm interested in adding a health and wellness program to my current insurance plan. Could you provide me with the options and how to proceed?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I've had a change in my life circumstances and need to cancel my health insurance as soon as possible.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Do your health plans cover chiropractic services?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm trying to locate the help center on your portal for some assistance.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Just got married and my spouse has better benefits, need to cancel mine.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Please provide instructions for eliminating the physiotherapy and chiropractic services from my insurance plan.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "How can I find a summary of my coverage benefits on your site?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm interested in wellness programs, can my policy be updated to include them?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "My family size increased with the arrival of twins, how to update our plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'd like to remove the extras from my policy, such as physiotherapy and acupuncture, to lower my premium.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm expecting a baby and need to know how to update my policy for hospital coverage.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "My job has provided me with a new work email, and I'd like to use that for my insurance correspondence now.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm frustrated with the lack of clarity in your billing statements.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Considering the comprehensive health benefits I receive from my new job, I'm contemplating whether I should remove the hospital coverage from my current insurance policy. What would you advise?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can you walk me through the process of eliminating hospital coverage from my policy?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm looking to add hospital coverage to my plan, can I get a quote for the additional cost?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm not sure who to contact, but my problem needs urgent attention from a higher-up.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I need to update the beneficiary information for my life insurance, as my family situation has changed.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "The password reset email hasn't arrived yet, is there another way to change my password?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Where can I find instructions for adding a family member to my policy online?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm not sure how to change the beneficiary on my life insurance, can you help?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Can you explain the difference between your various health plans and which would be best for a young couple?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I've been trying to update my email address in the portal, but the user interface isn't very intuitive.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I've been patient, but I need to escalate this to someone with the power to make a decision.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm not sure if it's a system glitch, but my account shows a different policy than what I agreed to.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "How can I ensure my new payment details are securely processed?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm unsure about keeping hospital cover. Can you remove it or should I keep it?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure if it's a system error, but my coverage details seem incorrect on the portal.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've never utilized the acupuncture benefit, can it be removed to lower my premium?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "What are the benefits of switching to your health insurance for a recent graduate?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "The charges on my bill don't align with my policy. Can we review it?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I think there's a glitch. Every time I log in, it redirects me back to the login page.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm a young professional looking for health insurance that won't break the bank. What kind of policies do you suggest?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "My experience with your support team has been disappointing. Could we possibly bring this to someone higher up for a quicker resolution?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I want to add acupuncture benefits to my policy, how can I do that?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm not sure, but I think my policy benefits have been reduced?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm curious about adding coverage for holistic health services, but I need more information on what that entails and how to include it?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "My wallet was stolen, including the card I use for my premiums. What now?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Can't access my account, could you help with password recovery?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I can't remember my password and the reset process is not working for me. What are my options?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I want to make sure my kids have orthodontic coverage, how can I include that in our policy?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'm simplifying my expenses, including cancelling my life insurance. How do I proceed?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Considering a policy change, how would adding hospital coverage affect my premiums?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Please terminate my health insurance policy effective immediately as I am moving out of the country.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been with your company for quite some time now, and I'm wondering if there are any complimentary upgrades available for my policy.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I think my account might be compromised because my login details aren't working and I'm sure they're correct.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Can you tell me more about adding pregnancy coverage to my policy?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "The 'forgot password' feature seems broken. What should I do next?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "There's a charge on my bill for a medication I never received. Can this be corrected?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "My son is now an adult, and I want to make him the beneficiary of my life insurance policy.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm considering other insurance options if I can't get this issue escalated to a higher level.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I need to update my address and name after getting married, but I'm not sure which documents are required.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm looking for more comprehensive hospital coverage than what my current policy offers. How do I upgrade?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I just lost my job and can't afford the premiums anymore. How do I cancel my policy?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I want to change the credit card on file for my insurance payments. Please provide the necessary steps.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "My partner and I split up, how do I remove them from my policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My primary beneficiary passed away, and I need guidance on nominating someone else for my life cover.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I've inherited some money and am considering cancelling my life insurance, what's your advice?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "My partner and I are separating, what does this mean for our joint policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Are there any current promotions that would allow me to upgrade my policy without incurring additional fees?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm currently reassessing my financial commitments and considering cancelling my life insurance policy. What is the procedure for that?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Can't log in after multiple attempts, is there an issue with the system?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm questioning the late fee added to my account, as I've always paid on time. Can you provide some insight?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I might cancel my policy if I don't find a more affordable option.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I've decided the vision and dental extras aren't necessary for me, how do I remove them?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "How can I include osteopathy in my health insurance benefits?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Considering a policy upgrade, how does adding hospital coverage impact my current benefits?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I heard you offer coverage for naturopathy, how can I include that in my existing plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "How do I remove my ex-wife from my policy after our recent divorce?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Could you explain the process for adding my newborn baby to my existing family health insurance plan? What documents will I need to provide?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My partner just had a baby, and I'm wondering how to add our newborn to my existing health insurance.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Can you connect me with a manager? My issue hasn't been resolved for weeks.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm contemplating a switch to a different insurer unless you can offer a complimentary upgrade on my existing plan.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm thinking I won't need hospital coverage anymore. How do I drop it?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "This situation is unacceptable, and I demand to speak with a supervisor immediately.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Can you tell me how to add my stepchildren to my health plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "The website isn't sending me a password reset email, can you check why?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I need assistance with removing my child from my policy since they're no longer a dependent.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "The portal's layout is confusing, where can I find my coverage details?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Are there any incentives for me to continue with my policy, such as a free upgrade to a more comprehensive plan?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm reevaluating my insurance needs. How can I take off the hospital coverage from my plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Your representative was rude to me yesterday. I expect better service.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm unsure if I should keep my life insurance or cancel it given my current financial situation. Can you advise?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "My daughter just had a baby, do I need to update my policy to include my grandchild?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm a recent college graduate and not very familiar with health insurance. Do your plans cater to people like me?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "How can I check the status of my prior authorization requests on your portal?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "After adopting a child, what's the next step to include them in my health plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Could you guide me through the process of beneficiary alteration for my life cover?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "My son is no longer a dependent, should I contact you to update my policy or is it automatic?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm reviewing my policy and found some discrepancies in the benefits listed, who can help?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Please cancel my life insurance policy immediately. I have no further need for this coverage.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Due to a recent inheritance, I'm contemplating whether I still require life insurance coverage.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm looking for health insurance that covers alternative therapies. Do your new policies include such treatments?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not happy with the responses so far. Can I talk to someone higher up?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Can you update my policy to include my new spouse?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm looking for a comprehensive life insurance plan that covers accidental death. What can you offer?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure who to contact, but I need to escalate my issue to someone with more power.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm considering removing the physio and acupuncture from my policy; could you help me understand the pros and cons?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Due to a recent job loss, I need to cancel my health insurance. What's the process?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Thinking of cancelling my health insurance, what are the steps?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I just got married and need to add my spouse to my coverage. What's the process?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm unsure whether to add hospital coverage or to opt for a higher-tier plan with broader benefits.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'd like to update my life insurance beneficiary from my parents to my spouse. What paperwork do I need to fill out?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "How do I go about terminating my health insurance coverage?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm thinking about cancelling my life insurance policy. What are the penalties or fees associated with this?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'd like to cancel the dental and vision coverage from my insurance, what are the next steps?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "After reviewing my finances, I believe I should cancel my life insurance. How should I proceed?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm covered by my spouse's plan for hospital visits, so how do I remove mine?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can you walk me through updating my autopay information with a new bank account?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Can loyal customers like me get a policy upgrade without paying more?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Where can I download the forms needed to file a claim on your website?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "The 'forgot password' function doesn't seem to be sending me an email. What should I do?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "The deductible listed is higher than what my plan states. Please clarify.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "We've had a new addition to the family, a baby boy! How do I add him to our plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Can you assist me in finding the preventive services covered under my plan on your site?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm not entirely sure how to proceed with updating my life insurance to reflect my recent marriage. Can you help?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I've just moved to the country and am unfamiliar with the health insurance system here. Can your plans accommodate newcomers like me?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Can't log in, is there a quick way to reset my password?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm not sure how to proceed with updating my health insurance after my recent marriage, can you guide me?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "The two-factor authentication isn't sending me a code, so I can't log in.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "What steps do I need to take to cancel the hospital coverage from my health insurance policy?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I've recently gone through a gender transition and my legal name has changed. How do I get my health insurance to reflect this?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Heard about free upgrades for policies, am I eligible as a loyal customer?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Can I include podiatry services in my current health insurance package?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "My recent bill includes a fee for a service that should be part of my coverage. What's the reason for this?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'd like to change how I pay for insurance, can you help with that?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm not sure if it's just a misunderstanding, but I was promised a discount that I haven't received on my bill.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm a new parent and want to ensure my child's financial security. What life insurance do you have?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "There's an error message saying my account is suspended when I try to log in.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "What are the financial repercussions if I decide to discontinue my life insurance coverage?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "What's the process for updating my payment details on your portal?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm unsure about the cancellation fees for my health insurance. Could you clarify before I make a decision?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I've noticed I don't use the physiotherapy service; can it be removed to reduce my premium?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "To ensure I receive all correspondence, could you please update my mailing address in your system to my new home?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Can you tell me how to go about discontinuing my life insurance policy?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Can you cancel my life insurance policy, or do I need to submit a form?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm pondering over the necessity of the extras in my plan, like vision care, and whether they're worth the cost.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm looking for a new life insurance policy. What do you offer?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm a senior customer with your insurance. Do I get any plan upgrades without extra fees?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I've heard that some insurance companies offer free upgrades to their loyal customers. Does your company have such a policy?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm fed up with this service, and I demand to speak with your supervisor immediately!", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Could you advise on the benefits of keeping or removing acupuncture from my coverage?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Just got married, what's next for including my spouse in my coverage?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure who to talk to, but I'm not happy with my current plan.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm trying to understand why there's a charge for emergency services when I haven't visited the ER. Can you clarify?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Considering adding my live-in partner to my plan, what should I be aware of?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My partner and I are now in a civil partnership, how do I go about updating my insurance policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not getting the support I need. Can you escalate my case to a senior representative?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Could you help me understand how to add hospital coverage for an upcoming operation?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I've decided to cancel my health insurance policy. What documents do I need to provide?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "What's the procedure to update my billing info to a new bank?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'd like to enhance my plan with coverage for preventive care services, can you help?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Do you have any special offers for existing customers, such as a free upgrade of their current insurance plan?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I've been thinking about getting coverage for health coaching, but I don't know if that's something you offer or how to add it?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Can you change my contact details if I provide them over chat?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I need to correct my name spelling on my account, who do I contact?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm looking for a health plan that covers alternative treatments, do you have such policies?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure whether I need life insurance at my age. Can you provide some guidance?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "There's an unexpected charge on my account labeled 'miscellaneous'. What does this entail?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm trying to review my policy documents but can't seem to find them on your website, could you point me in the right direction?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm not sure who to ask, but can you escalate my concern?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "How can I ensure my life insurance beneficiary is updated after my recent divorce?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Considering a new health plan, can you tell me if your policies cover chiropractic care?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Just moved to a new city, how do I go about changing my address with you?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "As a customer for over 10 years, am I eligible for any special plan improvements?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "What benefits do I get for staying with your insurance?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "My family situation has changed, and I need to update my life insurance beneficiaries.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm at my wit's end with the lack of progress on my claim. Can you arrange for a senior staff member to take over and provide a definitive solution?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Is it possible to discontinue my life insurance without any financial penalties?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Since my son is now an adult, I want to ensure he's listed as my life insurance beneficiary. What steps should I take?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Despite numerous attempts to resolve my billing issue, there's been no progress. Can we escalate this to someone with more authority?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've been trying to resolve an issue with my policy for weeks now, and the lack of progress is making me lose faith in your company.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Since I'm considering knee surgery next year, would my existing policy cover it, or do I need to make some changes?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm evaluating new health insurance options, what unique benefits do you offer?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'd like to set up a new payment method for my insurance policy using my savings account instead of checking. What do I need to do?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm considering changing plans due to these unexpected fees, can we discuss this issue?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm not sure how to cancel my health insurance policy. Can you provide some information?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm unsure if I should cancel my life insurance policy now that my mortgage is paid off. Can you help?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Could you connect me to a higher authority? My problem hasn't been solved.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Do I need to fill out a form to update my contact details or can I do it over the phone?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm unable to log in, and I've tried the password reset but haven't received an email.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I can't seem to find where to view my claim history on your portal.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Can you outline the steps to start a new life insurance policy with your company?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "My family's health insurance plan doesn't currently include hospital coverage. How can we add this to ensure we're fully protected?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I've been reevaluating my expenses and I'd like to discuss possibly removing some of the extras from my insurance.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "What's the cost difference if I no longer include alternative therapies in my insurance plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I've been thinking about hospital coverage lately, can you tell me how it works with my current plan?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "My recent bill includes a charge for pediatric services, but I don't have children. What's the reason for this?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've been a loyal customer for years, why am I not eligible for the discount?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm trying to make sense of the various charges on my insurance bill. Could we have a detailed discussion?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "My driver's license now reflects my new address, should my health insurance be updated too?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Need to update my health insurance after getting married last month, who can I speak to about this?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Just received my policy renewal notice and the rates have skyrocketed without warning!", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm a freelancer and my income varies. What kind of life insurance policy would work for me?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm not getting the resolution I need. Can someone higher up in the company take a look at my problem?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I need to cancel my health insurance policy because I'm switching to a different provider.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm considering a hip replacement; how to add this to my insurance?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm trying to understand how to navigate your portal to find the deductible tracker tool.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Do you have any loyalty rewards in the form of plan upgrades for existing customers?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm covered by my partner's insurance for hospital visits. Should I still keep my own hospital coverage?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure, but I feel like my concerns are not being taken seriously.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "What's the impact on my premiums if I decide to drop the hospital coverage from my insurance?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I don't understand the additional charge labeled 'administrative fee' on my latest invoice.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm not sure if I've forgotten my password or if your system is down. How can I tell?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Just married, how to include my spouse in my health insurance?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I've found a more comprehensive health plan with another provider and would like to cancel my current one. What steps should I take?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Every time I try to log in, the page just refreshes. What should I do?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Can you tell me if I can include physiotherapy services to my existing health plan?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Could you guide me through the process of eliminating hospital coverage from my existing health insurance plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm thinking of cancelling my health insurance due to high premiums. What's the impact on my taxes?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm unsure about the process for updating my personal details after a name change due to religious reasons. Can you assist?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I want to update my billing cycle and payment method, could you guide me through it?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Can you assist with updating my surname after my recent marriage?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I keep getting logged out automatically after logging in, is this supposed to happen?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Could you explain the consequences of policy cancellation?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "How does one proceed to cut out hospital coverage from their insurance?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can you tell me how to upgrade my policy to include hospitalization benefits?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "What are the penalties or fees associated with cancelling my life insurance policy before the term ends?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I've been reviewing my insurance needs and I'd like to remove the hospital cover from my plan. How do I do this?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm interested in your health insurance plans, but I travel a lot. Do you have international coverage?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm exploring options to improve my current health plan, do you offer any free upgrades for loyal customers?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm contemplating whether to cancel my life insurance or keep it for now. Any suggestions?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "Might need to cancel my insurance, what's the financial impact?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm not sure if my recent marriage affects my insurance. Can you provide some guidance?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Can you walk me through the process of updating the beneficiary on my life insurance policy?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I received a notice of policy cancellation, but I've paid all my premiums.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Considering my excellent health and lack of hospital visits, should I consider removing hospital coverage, or would that be unwise?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I've spoken to several agents, but my problem persists. Can you put me in touch with a senior manager?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm not sure about the benefits of physiotherapy in my plan, can we discuss its removal?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm thinking of changing my payment details, can you tell me what documents I need to provide?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "After my son's 24th birthday next month, will he still be eligible for coverage under my health insurance?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My legal documents now have a new name, should I inform the insurance company?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Looking for life insurance, can you guide me through the process?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I want to add coverage for things like chiropractic and acupuncture, but I'm not sure if my current plan allows for that?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Please process the removal of hospital coverage from my health insurance as I have alternate coverage.", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Please advise on the process for excluding hospital services from my health insurance.", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I need to find a new health insurance provider quickly, what's the fastest way to get coverage?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "What's the procedure for removing my ex-spouse from my health insurance after our divorce?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure who is currently listed as my life insurance beneficiary, but I'd like to make some changes. Can you show me the current details?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "How can I find a list of in-network hospitals and clinics on your website?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I've spoken to several representatives, but I'm still facing the same issue. Can a higher-up get involved?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "What kind of life insurance policies do you have that would cover accidental death?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Can I enhance my plan with dental and vision coverage?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Hospital coverage no longer seems necessary for me. How can I cancel it?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "If I've never used the emergency services included in my policy, would it be more economical to remove them?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm interested in adding hospital coverage, but I'm also considering switching providers. Thoughts?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Can you explain how to revise my life insurance to include my stepchildren as beneficiaries?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm not sure if you have my updated email since I haven't received any notifications lately.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm currently unemployed and need to cancel my health insurance. What are the consequences of doing this?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Please initiate the cancellation of my life insurance policy immediately.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'm considering changing the account from which my health insurance is debited. What should I do?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Please help me understand the consequences of dropping the chiropractic services from my health plan.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "My employer doesn't provide health insurance. What are my options with you?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Need to correct my DOB on the policy, who should I speak to?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm not sure why I received a non-coverage notice for a routine checkup.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Are there any loyalty rewards like a free policy upgrade?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm not sure what my options are, but I think this needs to be looked at by a manager.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm interested in reducing my monthly premiums. Would removing hospital coverage help with that?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can we take a look at my policy and see if removing the naturopathy services makes sense?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Please update my billing info, I've switched to a credit union from a traditional bank.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Could you tell me if my current policy qualifies for a complimentary upgrade?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Is there a waiting period after cancelling my health insurance?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "If I were to change my contact details, how soon should I notify you?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm not sure, but are the policy terms changing without proper notice to us?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm planning to cancel my health insurance policy because I'm eligible for a government program now. What steps do I need to follow?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "How does one go about dropping hospital cover from their insurance?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "How do I go about starting a life insurance policy for myself and possibly my children?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm in the market for a new health insurance policy that covers wellness programs, any suggestions?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure what's happening, but I can't seem to access my insurance account online.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I think I might have forgotten my password, but I'm not completely sure. Is there a way to find out without resetting it?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm considering leaving my current insurer, how quickly can I get coverage with you?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Could you provide me with information on how to cancel the vision care and dental services from my plan?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "How can I access the claims history section on your portal? I seem to be going in circles.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Can you tell me how to add naturopathy to my insurance coverage?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I've got a new email address and I'd like to know how to update it in your system for receiving policy communications.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Considering a policy switch, what are your health insurance benefits?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm considering a health insurance policy with your company. Can you tell me how your coverage compares to public health services?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "How much will I save on premiums if I decide to remove hospital coverage from my health insurance plan?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Can't seem to access my account, the login button isn't responding. Any advice?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "My account access is blocked, and I think it's a password issue. What's the process to reset it?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "How can I change the account where my insurance premium is debited from?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm considering switching banks soon, how will this affect my automatic insurance payments?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm unsure about my current plan's hospital coverage, can you help me understand my policy?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I've been without health insurance for a while and I'm worried about coverage gaps. Can your policies help bridge those gaps for someone like me?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm planning for a hospital stay and want to know how to include it in my coverage.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Are there any special offers for existing customers to get a free upgrade on their health insurance plan?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I want to eliminate hospital coverage from my insurance due to financial reasons. What's the impact?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Please guide me through the process of excluding the vision care from my insurance plan.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm not sure why there's a charge for a service I thought was covered in full by my insurance. Can we go over my policy details again?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm considering cancelling my policy due to poor service. Perhaps a discussion with a higher-up could change my mind?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've recently been through a divorce and need to update my life insurance policy beneficiaries. Can you guide me on how to do this?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Please advise on how to cancel my health insurance policy as I'm joining the military.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Since I'm planning surgery, should I upgrade or change my policy?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm evaluating whether I need life insurance at this stage in my life. What factors should I consider?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm considering dropping the physiotherapy from my insurance; how would that change my premium?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I've been thinking it might be time to review who I have listed as my life insurance beneficiaries. Could you provide some assistance?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I need to remove my ex-spouse as a beneficiary from my life insurance, please advise.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Are there any cost-free enhancements for my current health insurance policy?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Due to recent financial changes, I need to alter my payment method for insurance. Could you explain the steps?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "My lawyer mentioned something about updating my life insurance beneficiaries, but I'm not clear on the process.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I can't seem to locate the section for updating my contact details. Can you direct me?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Can't remember my login details, specifically the password. How do I recover or reset it?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Please provide steps for resetting my password, I can't log in.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm trying to locate the customer support chat feature on your site but seem to be going in circles.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Is it possible to get coverage for health and wellness apps?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "My login attempts fail, and I'm not sure if it's a password issue or a system glitch.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I've been patient, but the issue with my claim is still unresolved. Please escalate this to someone with the authority to fix it.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "After the passing of my spouse, I need to update the beneficiary on my life insurance. Who can I speak to about this sensitive matter?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Now that my daughter is married, she will be on her spouse's plan. What steps do I take to remove her from mine?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My financial advisor suggested revising my life insurance beneficiaries. Could you provide guidance?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm lost trying to navigate your website for policy management.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm not sure, but the coverage seems less than before. Is this correct?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "The extra fee for emergency services on my bill is incorrect, I never used those services.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "How do I go about removing the hospital coverage from my health insurance?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not happy with the premium hike. Can we review my policy?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Do you think I should keep the acupuncture benefit, or would it be better to remove it?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Can you tell me what's needed to include my domestic partner on my health plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure who's currently listed as my beneficiary. Can we review and possibly update this information?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I've recently got a new job and they've given me a new email address that I want to use for my insurance correspondence.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "What's involved in cancelling my life insurance policy? I've decided it's no longer necessary.", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I've noticed a pattern of errors in billing, and it's causing me significant inconvenience.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've noticed my health needs have evolved. Could you inform me about any free policy upgrades that would provide additional coverage?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm looking into the possibility of adding hospital coverage to my policy, but I'm also considering other insurance providers.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "The website isn't very clear, how do I check my past premium payments?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm not sure if my recent name change affects my beneficiaries. Can you provide some information on this?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm thinking of canceling hospital coverage, what are the consequences?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "My daughter is turning 26 next month; how does this affect her coverage under my policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not fully satisfied with my current plan. Could you tell me if I'm eligible for an upgrade without any additional costs?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Now that I have a government health card, do I still need my private hospital coverage?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm a freelancer interested in life insurance, what would you recommend?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I've recently been naturalized and my last name has changed. How do I update this with your insurance?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "What are the consequences if I decide to cancel my hospital coverage?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm due for a medical procedure and need to know how to add hospital coverage, can you assist?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "My daughter got married; do I need to update her status on my policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My friend recommended your health plans, what's the process to get started?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "Since there's been a change in my family, should I review my policy beneficiaries?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm not sure who to contact, but I need higher-level assistance.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "What are the benefits if I stay with your insurance company?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Can someone assist me in figuring out how to check my deductible status online?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm evaluating my insurance and might drop hospital cover. Can you explain the benefits and drawbacks?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "Could you tell me if my five-year loyalty to your insurance company qualifies me for any free policy upgrades?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Despite correct credentials, the login process fails every time. Assistance needed.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I need to print out my medical records from your portal for an upcoming appointment, but I can't find them. Can you direct me?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I want to remove hospital coverage from my policy, who do I need to speak to?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm not sure if it's a system error, but my recent payment hasn't been reflected.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "What documents are required to add my domestic partner to my health insurance plan?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm not sure, but I think there's a discrepancy in the benefits listed in my policy document versus what I'm actually receiving.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm contemplating whether to cancel my health insurance since I barely use it. Can you tell me more about the cancellation policy?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Considering other insurers, unless there's a chance for a complimentary upgrade on my policy?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm not sure if my current policy is sufficient for hospital stays, should I add more coverage?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Just moved, how to change my policy address?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "What's the cost of your basic health insurance policy?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I'm not getting the resolution I need. Can someone higher up address my issue?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I'm thinking of changing the credit card I use for payments, but I'm not sure how to proceed securely.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Need guidance on updating my life insurance beneficiary to my new spouse.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm looking to update my payment details, but I'm worried about how long the new details will take to process.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "What's the process for eliminating the physiotherapy and acupuncture services I've never utilized from my insurance?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Can you assist with updating my policy to include my new spouse?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm exploring the possibility of enhancing my policy. Are there any free upgrades available for existing customers?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I clicked on 'My Account' but it didn't show my policy info. Where should I navigate to find it?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "How do I start a new policy with your company?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "How do I proceed with eliminating the hospital coverage from my insurance, and what should I be aware of?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm contemplating canceling my policy due to high costs. Are there better options?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "There's been a typo in my name on my insurance documents. How can I get this corrected?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm newly married and wondering how to merge my health insurance with my spouse's plan.", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "My divorce is final, and I need to update my life insurance beneficiary.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "Please provide the steps to eliminate the emergency services from my health insurance.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "How do I replace my current life insurance beneficiary with my new spouse?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "What documents are required to update my new legal name?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I've been thinking about getting coverage for health and wellness apps, can you help?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "What's the best way to add hospital and surgical benefits to my existing health insurance?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "My child has just been accepted to college, should I be updating anything on our health insurance policy?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "I'm considering adding coverage for chiropractic services, but I'm not sure how to proceed. Can you advise?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I'd like to cancel my life insurance policy. Could you tell me what the penalties would be, if any?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I heard about coverage for gym memberships, can you tell me more about that?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "Could you provide information on how to cancel the hospital part of my health insurance?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm considering adding aromatherapy and other holistic services to my plan, what are my options?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "There's been a mistake with my claim, and no one is helping me fix it.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'd like to stop my life insurance policy, what steps should I take?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "My previous conversations haven't led to a solution. Can a supervisor intervene at this point?", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "I've noticed some discrepancies in my policy documents and I'm not happy about it.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've been thinking about changing the beneficiary on my life policy, but I'm not sure who to talk to.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "There's a charge for a service I declined. Can you remove it?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've tried the 'Forgot Password' feature but haven't received a reset link. Is there another way to reset my password?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Considering a job change that includes insurance, might need to cancel my current policy.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "What's the process for changing beneficiaries if I want to include my grandchildren?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "My password isn't working, and I'm not sure why. Could you help me with resetting it?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Can't seem to remember my login details, could it be a password issue?", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "Could you break down the benefits of starting a new health insurance policy with your company compared to my current one?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "How do I cancel my life insurance if I'm moving abroad soon?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I'd like to cancel the extras, especially dental and vision.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm thinking of changing my life insurance beneficiary, can you tell me about the tax implications?", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I'm not sure, but is there a reason my coverage seems to be shrinking?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm debating whether to keep the alternative therapies in my policy, what do you suggest?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm not satisfied with my policy and looking for an upgrade.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Considering a surgery, unsure if current health insurance covers it or if I need additional coverage.", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm reviewing my policy and might need help to change a few things on online.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm dissatisfied with my current plan's benefits and considering a change.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I won't be needing my health policy anymore. How do I go about cancelling it?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "What steps to take for adding maternity hospital coverage to my policy?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm considering other insurance options due to my current plan's limitations.", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I want to change the way I pay for my insurance, can you help me with that?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Considering my age and health, do you think it's wise to keep my life insurance policy?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I heard about your hospital coverage, but I'm with another insurer. What are my options?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I'm unsure about how to proceed with updating my life insurance to benefit my new spouse.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I've been thinking about getting life insurance, but I'm not sure where to start.", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure what's wrong, but I can't log in to download my policy documents.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "I'm considering switching to a high-yield savings account for my insurance payments, can you assist me with the necessary updates?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm interested in your life insurance plans. What's the first step to get a policy?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Are there any benefits for me if I stay, like a free upgrade?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "I'm moving abroad and have to cancel all my local insurances, including my health cover.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I've reviewed my policy and decided to cancel the extras, including physiotherapy and acupuncture. Please advise on the next steps.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm looking to update my payment method but can't seem to navigate to the right page on your portal.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "Please provide information on how to add naturopathy treatments to my health insurance.", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "I need to update my credit card information. Can you guide me through the process?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm nearing retirement and want to leave something behind for my family. Can you tell me about life insurance policies suitable for someone in my situation?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "The customer service rep didn't seem to understand my problem, and I'm still without a solution.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Can you walk me through the process of cancelling my life insurance?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I want to change my life insurance beneficiary from my parent to my spouse.", "main_intent": "life_cover", "sub_intent": "beneficiary_info"}
+{"text": "I've noticed a service charge on my bill that I wasn't aware of. Explanation?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I received incorrect information from your call center and it affected my coverage.", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Due to a significant salary cut, I'm forced to reconsider my expenses, and I might have to cancel my health insurance with you. What are the financial repercussions of doing this?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I'd like to add coverage for alternative medicine practices. What are my choices?", "main_intent": "health_cover", "sub_intent": "add_extras"}
+{"text": "How soon can coverage begin if I apply for life insurance today?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "My new number isn't on my profile, how to add it?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "Is there a tutorial for first-time users of your online customer portal?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "The invoice I received includes a charge for a service I'm exempt from. What's the reason?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "The co-pay for my medication has increased, but my plan hasn't changed. Why?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I've had a change in circumstances and need to cancel my life insurance policy, what steps should I take?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "My partner is moving in and we want to consolidate our health plans. What should we do?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Please remove the alternative therapy options from my policy as I don't find them necessary.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'd like to cancel the hospital coverage from my insurance, what are the implications?", "main_intent": "health_cover", "sub_intent": "remove_hospital"}
+{"text": "I'm a recent college graduate and need to find affordable health insurance. What options do you have for someone just starting out?", "main_intent": "health_cover", "sub_intent": "new_policy"}
+{"text": "I believe my situation requires attention from someone with more authority. Please escalate my call.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "Just realized I've never used the physio services in my policy. Is it cheaper if I remove them?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "My payment details need to be updated due to a recent change in my financial institution. Can you help me with this transition?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "The two-factor authentication SMS isn't arriving, and I can't complete the login process.", "main_intent": "technical_support", "sub_intent": "login_issues"}
+{"text": "What's the maximum coverage I can get if I apply for a life insurance policy with your company?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "How do I go about changing the name on my insurance if I've had a legal name change due to adoption?", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm considering life insurance but worried about the cost. Can you provide a range of affordable options?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm not sure if I'm being overcharged, but my latest statement seems incorrect?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "I'm a recent retiree and want to explore life insurance options to leave something for my grandchildren. What do you recommend?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "Could you tell me if there's a way to opt-out of the dental coverage I currently have?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I need to update my contact information in your records.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "My partner and I are considering life insurance. What are the steps to get both of us insured?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "My son just enlisted in the military, how does this affect our insurance?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "What's the procedure for updating my health insurance to reflect my recent marriage?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "Can you tell me how to update my payment method? I no longer use my old bank.", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I need to update my insurance to include hospitalization, who can I speak to about this?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "I need to provide you with new banking information for my monthly premium payments due to an account switch. What steps should I follow?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "Please provide instructions for cancelling my health insurance policy immediately.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "I've recently had a change in my life circumstances and need to know how to cancel my health insurance.", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Do you provide any free upgrades for long-standing policyholders?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "It seems my credit card is about to expire, and I'm thinking it might affect my premium payments. Should I be looking into this?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "If I decide to stay with your insurance, are there any complimentary upgrades to my policy that I can expect?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "Could you explain the different life insurance options you have available for someone who's never had a policy before?", "main_intent": "life_cover", "sub_intent": "new_policy"}
+{"text": "I'm considering different health plans and might cancel my current one. What are the financial implications?", "main_intent": "health_cover", "sub_intent": "cancel_policy"}
+{"text": "Can this issue be forwarded to someone higher up? I'm not satisfied with the current handling.", "main_intent": "customer_retention", "sub_intent": "escalation"}
+{"text": "My lifestyle doesn't really require acupuncture benefits, could you advise on the process to remove it?", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Drop the dental and vision from my plan, I don't use them.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "I'm seeing a copay for a fully covered service. Why is that?", "main_intent": "customer_retention", "sub_intent": "complaint"}
+{"text": "Please proceed with the removal of the emergency services from my health insurance as I have other arrangements.", "main_intent": "health_cover", "sub_intent": "remove_extras"}
+{"text": "Where can I view my claim status online?", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I'm unsure if I should keep my life insurance policy active given my current financial situation. Could you advise on cancellation?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "My son has graduated and found a job, what are the steps to take him off my health insurance?", "main_intent": "profile_update", "sub_intent": "members"}
+{"text": "What's the procedure for updating my payment method?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I'm thinking of switching to a different credit card for my premium payments, what's the procedure?", "main_intent": "profile_update", "sub_intent": "payment_info"}
+{"text": "I've been a policyholder with you for five years. Do you offer any free upgrades for such loyalty?", "main_intent": "customer_retention", "sub_intent": "free_product_upgrade"}
+{"text": "How do I go about adding surgical coverage to my current health insurance policy?", "main_intent": "health_cover", "sub_intent": "add_hospital"}
+{"text": "Given my recent retirement, I'm unsure if maintaining life insurance is necessary. Thoughts on cancellation?", "main_intent": "life_cover", "sub_intent": "cancel_policy"}
+{"text": "I need to update my phone number but I'm struggling to figure out how to do it on your site.", "main_intent": "technical_support", "sub_intent": "portal_navigation"}
+{"text": "I've legally changed my gender, and I'd like to know how to reflect this in my insurance details.", "main_intent": "profile_update", "sub_intent": "contact_info"}
+{"text": "I'm looking to understand the tax benefits associated with life insurance policies. Can you provide some insight?", "main_intent": "life_cover", "sub_intent": "new_policy"}
